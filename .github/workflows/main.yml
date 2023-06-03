@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: CakeCrusher/hello-world-docker-action@v2
+        uses: CakeCrusher/hello-world-docker-action@v3
         with:
           who-to-greet: 'Cake'
       - name: Get the output time
